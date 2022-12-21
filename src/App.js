@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme } from '@mui/material/styles';
 import { useMediaQuery, Box } from '@mui/material';
-import { PcDrawer, MobileDrawer } from './components';
+import MobileDrawer from './components/MobileDrawer';
+import PcDrawer from './components/PcDrawer';
 import { NavItems } from './components/constants';
 import { ProfilePage } from './pages';
 let theme = createTheme();
