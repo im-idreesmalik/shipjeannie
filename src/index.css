@@ -16,3 +16,6 @@ code {
   position: fixed;
   left: 0.5em;
 }
+.active {
+  background-color: lightblue;
+}
